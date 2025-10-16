@@ -5,7 +5,7 @@ using System.Data;
 
 namespace Biblioteca.Services
 {
-    public class BibliotecaSv
+    public class BibliotecaSv : IBibliotecaSv
     {
         private static LibroDisponibleDto MapLibroDisponible(SqlDataReader rd)
         {
